@@ -8,9 +8,9 @@ add.addEventListener("click", () => {
     <h1>I LOVE YOU</h1>
     <h1 class="name">${name.toUpperCase()}</h1>
     ` ;
-    }else if(name === "Rifat"){
+    }else if(name.toUpperCase() === "RIFAT"){
           out.innerHTML = `
-    <h1>I LOVE YOU</h1>`;
+    <h1>FUCK YOU</h1>`;
     }
     else{
         out.innerHTML =""
